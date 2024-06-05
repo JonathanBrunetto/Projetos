@@ -1,24 +1,35 @@
 body{
-    margin: 0;
+    margin: 0%;
 }
-
-h1{
-    margin: 0;
+H1{
+    margin: 0%;
 }
-
 header{
-    background-color: rgb(241, 106, 106);
-    display: flex;
-    justify-content: space-between; 
-    
+    background-color: rgb(8, 36, 5);
+    display:flex;/* Deixa tudo na mesma linha */
+    justify-content: space-between;/* Organiza os botão com espaçamento ou pro meio e final e só funciona com display:fley */
+    padding: 10px 20px; 
+}
+#box-categorias button{
+
+    background-color: rgb(13, 100, 58); 
+}
+#box-ordenar button{
+    background-color: rgb(13, 100, 58); 
 }
 
 #box-categorias button, 
-#box-ordenar button{
-    background-color: brown;
-    border: 0;
-    color: aliceblue;
-    padding: 10px 20px;
-    border-radius: 15px;    
-}   
-
+#box-ordenar button {
+   border-radius: 6px;
+   border: o;
+   color: rgb(255, 255, 255);
+   padding: 10px 20px 10px 20px;/* espaço do texto na caixa */
+}
+#galeria-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#galeria-imagens img{
+    max-width: 100%;
+}
